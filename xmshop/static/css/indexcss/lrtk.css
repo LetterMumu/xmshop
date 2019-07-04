@@ -1,0 +1,100 @@
+#moquu_top,
+#moquu_wxin,
+#moquu_wshare,
+#moquu_wmaps {
+    z-index: 2;
+    width: 50px;
+    height: 50px;
+    right: 10px;
+    position: fixed;
+    cursor: pointer;
+    _position: absolute;
+    _bottom: auto;
+}
+
+#moquu_wxin {
+    top: 360px;
+    _margin-top: 360px
+}
+
+#moquu_wxin a {
+    right: 0;
+    float: left;
+    width: 50px;
+    height: 50px;
+    text-indent: -9999px
+}
+
+#moquu_wxin a:hover {
+}
+
+#moquu_wshare {
+    top: 412px;
+    _margin-top: 412px
+}
+
+#moquu_wshare a {
+    width: 50px;
+    height: 50px;
+    right: 0;
+    float: left;
+    text-indent: -9999px
+}
+
+#moquu_wshare a:hover {
+}
+
+#moquu_wmaps {
+    top: 464px;
+    _margin-top: 464px
+}
+
+#moquu_wmaps a {
+    width: 50px;
+    height: 50px;
+    right: 0;
+    float: left;
+    text-indent: -9999px
+}
+
+#moquu_wmaps a:hover {
+}
+
+#moquu_top {
+    top: 516px;
+    _margin-top: 516px;
+    width: 50px;
+    height: 50px
+}
+
+#moquu_top:hover {
+}
+
+.moquu_wxin,
+.moquu_wshare {
+    position: relative;
+    z-index: 2
+}
+
+.moquu_wxin a:hover .moquu_wxinh,
+.moquu_wshare a:hover .moquu_wshareh {
+    display: block
+}
+
+.moquu_wxin .moquu_wxinh {
+    position: absolute;
+    display: none;
+    left: -280px;
+    top: -200px;
+    width: 275px;
+    height: 355px;
+}
+
+.moquu_wshare .moquu_wshareh {
+    position: absolute;
+    display: none;
+    left: -280px;
+    top: -200px;
+    width: 275px;
+    height: 360px;
+}
